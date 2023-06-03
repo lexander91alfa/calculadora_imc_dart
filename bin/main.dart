@@ -10,7 +10,7 @@ void main(List<String> arguments) {
     return;
   }
 
-  Pessoa pessoa = Pessoa(nome, peso, altura);
+  Pessoa pessoa = Pessoa(nome, altura, peso);
 
   Console.imprimirResultado(pessoa);
 }

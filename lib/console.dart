@@ -35,7 +35,6 @@ class Console {
       if (altura == null || altura.isNaN) {
         print('A altura deve ser um número.');
       } else {
-        altura = double.parse(altura.toStringAsFixed(2));
         if (altura < 0.3) {
           print('A altura deve ser maior que 0.3');
         } else {
@@ -57,7 +56,6 @@ class Console {
       if (peso == null || peso.isNaN) {
         print('O peso deve ser um número.');
       } else {
-        peso = double.parse(peso.toStringAsFixed(2));
         if (peso < 1) {
           print('O peso deve ser maior que 1');
         } else {

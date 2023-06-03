@@ -31,7 +31,7 @@ Execute a aplicação:
 
 ```bash
 
-dart run main.dart
+dart run bin/main.dart
 
 ```
 
